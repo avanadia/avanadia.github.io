@@ -9,6 +9,10 @@ header .row, footer .row {
 }
 
 header {
+	background-color: red;	
+}
+
+header {
 	padding: 5px;
 }
 
