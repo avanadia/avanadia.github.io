@@ -1,0 +1,117 @@
+body {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 350;
+}
+
+header .row, footer .row {
+	display: flex;
+	align-items: center;
+}
+
+header {
+	padding: 5px;
+}
+
+header h1 {
+	font-weight: 700;
+	/*letter-spacing: 5px;*/
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+header p {
+	padding: 0 20px;
+	margin: 5px 0 0 0;
+	font-weight: bold;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(to bottom right, blue, green);
+	color: #ffffff;
+	height: 400px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+	font-size: 60px;
+	font-weight: 700;	
+	color: #fff;
+}
+
+#objective {
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+section .row img {
+	margin: 0 0 30px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+section .row p {
+	font-weight: 400;
+	font-size: 15px;	
+}
+
+section .col-sm-4 h3 {
+	font-weight: 700;
+}
+
+section .col-sm-8 h3 {
+	font-weight: 700;
+}
+
+section .col-sm-12 h3 {
+	font-weight: 700;
+}
+
+section .col-sm-12 ul {
+	font-size: 15px;
+}
+
+section .col-sm-12 #company {
+	font-size: 16px;
+	margin-left: 22px;
+	float: left;
+	display: inline-block;
+	font-weight: bold;
+}
+
+section .col-sm-12 #title {
+	font-size: 16px;
+	float: right;
+	display: inline-block;
+	font-style: italic;
+}
+
+section .col-sm-12 #date {
+	font-size: 16px;
+	margin-left: 22px;
+}
+
+section .col-sm-12 ul {
+	margin-bottom: 25px;
+}
+
+
+section .col-sm-4 ul {
+	display: inline-block;
+}
+
+section .col-sm-4 li {
+	font-size: 16px;
+}
+
+
+
+footer {
+	font-size: 13px;
+	padding: 20px 0;
+}
