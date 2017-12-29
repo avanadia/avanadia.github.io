@@ -3,7 +3,12 @@ body {
 	font-weight: 350;
 }
 
-header .row, footer .row {
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+footer .row {
 	display: flex;
 	align-items: center;
 }
