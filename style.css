@@ -30,7 +30,7 @@ header p {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background: linear-gradient(to bottom right, blue, green);
+	background-color: #015a6c;
 	color: #ffffff;
 	height: 400px;
 	text-shadow: 0.25px 0.25px 0.25px #000000;
