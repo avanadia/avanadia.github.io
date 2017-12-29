@@ -10,6 +10,8 @@ header .row, footer .row {
 
 header {
 	padding: 5px;
+	background-color: black;
+	color: #fff;
 }
 
 header h1 {
