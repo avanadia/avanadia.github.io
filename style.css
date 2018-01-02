@@ -1,6 +1,7 @@
 body {
 	font-family: 'Helvetica', sans-serif;
 	font-weight: 350;
+	color: #fff;
 }
 
 header .row {
@@ -23,6 +24,10 @@ header h1 {
 	font-weight: 700;	
 }
 
+#navbar {
+	width: 100%;
+}
+
 header nav {
 	display: flex;
 	justify-content: flex-end;
@@ -37,12 +42,12 @@ header p {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image: url("https://s3.us-east-2.amazonaws.com/ninos-pictures/peanut-sun.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	color: #ffffff;
+	background-image: url("https://s3.us-east-2.amazonaws.com/ninos-pictures/peanut-sun-cropped.png");
+	background-size: cover;
+	background-repeat: repeat;
+	color: #fff; 
 	height: 400px;
-	text-shadow: 0.25px 0.25px 0.25px #000000;
+	text-shadow: 0.75px 0.75px 0.75px #000000;
 }
 
 .jumbotron h2 {
