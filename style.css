@@ -38,6 +38,8 @@ header p {
 	display: flex;
 	align-items: center;
 	background-image: url("https://s3.us-east-2.amazonaws.com/ninos-pictures/peanut-sun.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
 	color: #ffffff;
 	height: 400px;
 	text-shadow: 0.25px 0.25px 0.25px #000000;
