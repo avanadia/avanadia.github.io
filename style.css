@@ -73,6 +73,10 @@ section .row p {
 	font-size: 15px;	
 }
 
+section .col-sm-12 {
+	display: inline-block;
+}
+
 section .col-sm-4 h3 {
 	font-weight: 700;
 }
@@ -89,22 +93,23 @@ section .col-sm-12 ul {
 	font-size: 15px;
 }
 
-section .col-sm-12 #company {
+#company {
 	font-size: 16px;
 	margin-left: 22px;
+	margin-right: 22px;
 	float: left;
-	display: inline-block;
+	display: block;
 	font-weight: bold;
 }
 
-section .col-sm-12 #title {
+#title {
 	font-size: 16px;
 	float: right;
-	display: inline-block;
+	display: block;
 	font-style: italic;
 }
 
-section .col-sm-12 #date {
+#date {
 	font-size: 16px;
 	margin-left: 22px;
 }
