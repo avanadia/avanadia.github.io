@@ -42,9 +42,7 @@ header p {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image: url("https://s3.us-east-2.amazonaws.com/ninos-pictures/peanut-sun-cropped.png");
-	background-size: cover;
-	background-repeat: repeat;
+	background: linear-gradient(blue, green);
 	color: #fff; 
 	height: 400px;
 	text-shadow: 0.75px 0.75px 0.75px #000000;
